@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include "../include/sqlite3.h"
-#include "../lib/ThrowFatalError.h"
+#include "../lib/Utils.h"
 
 
 SQLiteDB::SQLiteDB(const std::string& filename) {
@@ -27,7 +27,7 @@ void SQLiteDB::exec(const std::string& sql) {
 SQLiteStatement* SQLiteDB::prepareStatement(const std::string& sql) {
     stmt = new SQLiteStatement();
     if (sqlite3_prepare_v2(db, sql.c_str(), -1, &stmt->stmt, nullptr) != SQLITE_OK) {
-		ThrowFatalError("Failed to prepare statement:", sqlite3_errmsg(db));
+		Utils::ThrowFatalError("Failed to prepare statement:", sqlite3_errmsg(db));
 		return nullptr;
 	}
 	return stmt;

@@ -130,27 +130,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Account.cpp" />
-    <ClCompile Include="src\Authentication.cpp" />
-    <ClCompile Include="src\GameDatabaseManager.cpp" />
+    <ClCompile Include="src\models\Notification.cpp" />
+    <ClCompile Include="src\models\Loan.cpp" />
+    <ClCompile Include="src\services\GameContext.cpp" />
+    <ClCompile Include="src\ui\IntroScreen.cpp" />
+    <ClCompile Include="src\ui\ApplicationPages.cpp" />
+    <ClCompile Include="src\ui\ANSI.cpp" />
+    <ClCompile Include="src\models\Account.cpp" />
+    <ClCompile Include="src\services\Authentication.cpp" />
+    <ClCompile Include="src\services\GameDatabaseManager.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="include\shell.c" />
     <ClCompile Include="src\SQLiteDB.cpp" />
     <ClCompile Include="include\sqlite3.c" />
-    <ClCompile Include="src\Stock.cpp" />
-    <ClCompile Include="src\ThrowFatalError.cpp" />
-    <ClCompile Include="src\Transaction.cpp" />
+    <ClCompile Include="src\models\Stock.cpp" />
+    <ClCompile Include="src\models\Transaction.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+    <ClCompile Include="src\StockMarketSimulator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lib\Account.h" />
-    <ClInclude Include="lib\Authentication.h" />
-    <ClInclude Include="lib\GameDatabaseManager.h" />
+    <ClInclude Include="lib\services\GameContext.h" />
+    <ClInclude Include="lib\ui\IntroScreen.h" />
+    <ClInclude Include="lib\ui\ApplicationPages.h" />
+    <ClInclude Include="lib\ui\ANSI.h" />
+    <ClInclude Include="lib\models\Account.h" />
+    <ClInclude Include="lib\services\Authentication.h" />
+    <ClInclude Include="lib\services\GameDatabaseManager.h" />
     <ClInclude Include="lib\SQLiteDB.h" />
     <ClInclude Include="include\sqlite3.h" />
     <ClInclude Include="include\sqlite3ext.h" />
-    <ClInclude Include="lib\Stock.h" />
-    <ClInclude Include="lib\ThrowFatalError.h" />
-    <ClInclude Include="lib\Transaction.h" />
+    <ClInclude Include="lib\models\Stock.h" />
+    <ClInclude Include="lib\models\Transaction.h" />
+    <ClInclude Include="lib\Utils.h" />
+    <ClInclude Include="lib\models\Loan.h" />
+    <ClInclude Include="lib\models\Notification.h" />
+    <ClInclude Include="lib\StockMarketSimulator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-#include "../lib/Account.h"
+#include "../../lib/models/Account.h"
 
 void Account::deposit(double amount) { // TODO: need to handle this error better
 	if (amount <= 0) {
