@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include "SQLiteDB.h"
+#include "../SQLiteDB.h"
 
 using namespace std;
 

@@ -18,7 +18,7 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Authentication.cpp">
+    <ClCompile Include="src\services\Authentication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="include\shell.c">
@@ -30,24 +30,45 @@
     <ClCompile Include="src\SQLiteDB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Account.cpp">
+    <ClCompile Include="src\models\Account.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Transaction.cpp">
+    <ClCompile Include="src\models\Transaction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Stock.cpp">
+    <ClCompile Include="src\models\Stock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameDatabaseManager.cpp">
+    <ClCompile Include="src\services\GameDatabaseManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ThrowFatalError.cpp">
+    <ClCompile Include="src\ui\ANSI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\ApplicationPages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\IntroScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\GameContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\models\Loan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\models\Notification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StockMarketSimulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lib\Authentication.h">
+    <ClInclude Include="lib\services\Authentication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\sqlite3ext.h">
@@ -59,19 +80,40 @@
     <ClInclude Include="lib\SQLiteDB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\Account.h">
+    <ClInclude Include="lib\models\Account.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\Transaction.h">
+    <ClInclude Include="lib\models\Transaction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\Stock.h">
+    <ClInclude Include="lib\models\Stock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\GameDatabaseManager.h">
+    <ClInclude Include="lib\services\GameDatabaseManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\ThrowFatalError.h">
+    <ClInclude Include="lib\ui\ANSI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ui\ApplicationPages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ui\IntroScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\services\GameContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\models\Loan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\models\Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\StockMarketSimulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
